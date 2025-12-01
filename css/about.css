@@ -5,10 +5,14 @@
   /* border: solid 1px red; */
 }
 
+/*---------------------------------
+|           NAV HEADER            |
+---------------------------------*/
+
 .header-container {
   display: flex;
   padding: 0px 16px;
-  background-color: #1f2937;
+  background-color: rgb(255, 106, 80)
 }
 
 .header-logo {
@@ -19,10 +23,17 @@
   display: flex;
   list-style-type: none;
   gap: 16px;
+}
+
+.nav-links a {
   text-decoration: none;
   font-size: 18px;
-  color: #e5e7eb;
+  color: rgb(20, 20, 20)
 }
+
+/*---------------------------------
+|           BODY                  |
+---------------------------------*/
 
 body {
   height: 100vh;
@@ -32,3 +43,8 @@ body {
   flex-direction: column;
   justify-content: space-between;
 }
+
+main{
+  flex: 1;
+}
+

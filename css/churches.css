@@ -1,0 +1,50 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  /* border: solid 1px red; */
+}
+
+/*---------------------------------
+|           NAV HEADER            |
+---------------------------------*/
+
+.header-container {
+  display: flex;
+  padding: 0px 16px;
+  background-color: rgb(255, 106, 80)
+}
+
+.header-logo {
+  margin-right: auto;
+}
+
+.nav-links ul {
+  display: flex;
+  list-style-type: none;
+  gap: 16px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  font-size: 18px;
+  color: rgb(20, 20, 20)
+}
+
+/*---------------------------------
+|           BODY                  |
+---------------------------------*/
+
+body {
+  height: 100vh;
+  margin: 0;
+  font-family: Roboto, sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+main{
+  flex: 1;
+}
+
